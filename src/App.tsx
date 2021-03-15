@@ -1,10 +1,13 @@
+import { Dashboard } from './components/Dashboard'
+import { Header } from './components/Header'
 import { GlobalStyle } from './styles/global'
 
 export const App = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
+    <>
+      <Header />
+      <Dashboard />
       <GlobalStyle />
-    </div>
+    </>
   )
 }
